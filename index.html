@@ -78,10 +78,14 @@
 
         /* Circuit image styling */
         .circuit-image {
-            max-width: 70%; /* Adjusted image size */
+            max-width: 70%; /* Keep your increased size */
             height: auto;
             border-radius: 8px;
-        }
+            object-fit: contain; /* Ensures the image fits its container without distortion */
+            display: block; /* Removes any inline spacing */
+            margin: 0; /* Ensures no extra margins */
+            padding: 0; /* Removes any padding */
+            }
 
         /* Explanation section styling */
         .circuit-info {
