@@ -18,9 +18,6 @@
             font-family: Arial, sans-serif;
             background-color: #e0f7fa; /* Light blue background */
             display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            padding: 20px;
             flex-direction: column;
             align-items: center;
         }
@@ -33,8 +30,9 @@
             background-color: #d3d3d3; /* Light grey background */
             color: black;
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
             align-items: center;
+            border-bottom: 2px solid #bbb; /* Adds separation */
         }
 
         .top-container h1 {
@@ -44,28 +42,21 @@
 
         .top-container p {
             font-size: 1.2rem;
-            margin: 0;
-        }
-
-        .linkedin-link {
-            display: flex;
-            align-items: center;
-            text-decoration: none;
-            color: black;
-            font-size: 1.2rem;
+            margin: 10px 0;
         }
 
         .linkedin-link img {
-            width: 30px;
-            height: 30px;
-            margin-left: 10px;
+            width: 20px; /* Smaller size for the logo */
+            height: 20px;
+            margin-top: 10px;
+            filter: grayscale(100%); /* Grey color effect */
         }
 
         /* Content wrapper to hold the page */
         .content-wrapper {
             width: 100%;
             max-width: 1100px; /* Increased max width */
-            margin: 0 auto;
+            margin: 20px auto; /* Added margin to separate from top container */
             text-align: center;
         }
 
@@ -134,12 +125,9 @@
 <body>
 
     <div class="top-container">
-        <div>
-            <h1>Electronix</h1>
-            <p>Electronics learning journey</p>
-        </div>
+        <h1>Electronix</h1>
+        <p>Electronics learning journey</p>
         <a href="https://linkedin.com/in/onuremrecakir" class="linkedin-link" target="_blank">
-            LinkedIn
             <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Logo">
         </a>
     </div>
