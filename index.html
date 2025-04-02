@@ -21,12 +21,50 @@
             justify-content: center;
             align-items: flex-start;
             padding: 20px;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Top container */
+        .top-container {
+            width: 100%;
+            text-align: center;
+            padding: 30px;
+            background-color: #d3d3d3; /* Light grey background */
+            color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .top-container h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        .top-container p {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+
+        .linkedin-link {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: black;
+            font-size: 1.2rem;
+        }
+
+        .linkedin-link img {
+            width: 30px;
+            height: 30px;
+            margin-left: 10px;
         }
 
         /* Content wrapper to hold the page */
         .content-wrapper {
             width: 100%;
-            max-width: 1000px; /* Maximum width for large screens */
+            max-width: 1100px; /* Increased max width */
             margin: 0 auto;
             text-align: center;
         }
@@ -35,37 +73,37 @@
         .circuit-box {
             display: flex;
             background-color: white;
-            padding: 40px; /* Increased padding for a bigger box */
+            padding: 60px; /* Increased padding */
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 40px; /* Increased space between circuit boxes */
+            margin-bottom: 50px; /* Increased spacing */
             align-items: center;
-            gap: 30px; /* Added more space between image and text */
-            max-width: 1000px; /* Increased the width of the box */
-            width: 100%; /* Make the box take up 100% of the container width */
+            gap: 40px; /* Increased gap */
+            max-width: 1100px; /* Increased max width */
+            width: 100%;
         }
 
         /* Circuit image styling */
         .circuit-image {
-            max-width: 60%; /* Increased image size */
+            max-width: 50%; /* Adjusted image size */
             height: auto;
             border-radius: 8px;
         }
 
         /* Explanation section styling */
         .circuit-info {
-            width: 40%; /* Increased the width of the text section */
+            width: 50%; /* Adjusted text width */
             text-align: left;
         }
 
         .circuit-info h2 {
-            font-size: 2rem;
-            color: #00796b; /* Dark teal for headline */
-            margin-bottom: 10px;
+            font-size: 2.2rem; /* Slightly larger heading */
+            color: #00796b;
+            margin-bottom: 15px;
         }
 
         .circuit-info p {
-            font-size: 1.1rem;
+            font-size: 1.3rem; /* Increased font size */
             color: #555;
         }
 
@@ -79,6 +117,7 @@
                 flex-direction: column;
                 align-items: center;
                 text-align: center;
+                padding: 40px; /* Adjusted padding for small screens */
             }
 
             .circuit-image {
@@ -93,6 +132,17 @@
     </style>
 </head>
 <body>
+
+    <div class="top-container">
+        <div>
+            <h1>Electronix</h1>
+            <p>Electronics learning journey</p>
+        </div>
+        <a href="https://linkedin.com/in/onuremrecakir" class="linkedin-link" target="_blank">
+            LinkedIn
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Logo">
+        </a>
+    </div>
 
     <div class="content-wrapper">
         <div class="circuit-box">
