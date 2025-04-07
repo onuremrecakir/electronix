@@ -1,160 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Electronix</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Electronix – Onur Emre Çakır</title>
     <style>
-        /* Basic Reset */
+        /* Reset & base styles */
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-        /* Body layout */
-        body, html {
-            height: 100%;
-            font-family: Arial, sans-serif;
-            background-color: #e0f7fa; /* Light blue background */
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
+            padding: 0;
         }
 
-        /* Top container */
-        .top-container {
-            width: 100%;
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        /* Header */
+        header {
+            background-color: #004d40;
+            color: white;
+            padding: 40px 20px;
             text-align: center;
-            padding: 20px;
-            background-color: #d3d3d3; /* Light grey background */
-            color: black;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            border-bottom: 2px solid #bbb; /* Adds separation */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
 
-        .top-container h1 {
-            font-size: 2.5rem;
-            margin: 0;
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
         }
 
-        .top-container p {
+        header p {
             font-size: 1.2rem;
-            margin: 10px 0;
+            opacity: 0.85;
         }
 
-        .linkedin-link img {
-            width: 20px; /* Smaller size for the logo */
-            height: 20px;
-            margin-top: 10px;
-            filter: grayscale(100%); /* Grey color effect */
+        .social-links {
+            margin-top: 15px;
         }
 
-        /* Content wrapper to hold the page */
-        .content-wrapper {
-            width: 100%;
-            max-width: 1100px; /* Increased max width */
-            margin: 20px auto; /* Added margin to separate from top container */
-            text-align: center;
+        .social-links img {
+            width: 28px;
+            height: 28px;
+            filter: invert(100%);
+            transition: transform 0.3s ease;
         }
 
-        /* Container for each circuit box */
-        .circuit-box {
-            display: flex;
+        .social-links img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Container */
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        /* Card grid */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        /* Card */
+        .card {
             background-color: white;
-            padding: 60px; /* Increased padding */
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 50px; /* Increased spacing */
-            align-items: center;
-            gap: 40px; /* Increased gap */
-            max-width: 1100px; /* Increased max width */
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+            overflow: hidden;
+            transition: transform 0.2s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+        }
+
+        .card img {
             width: 100%;
-        }
-
-        /* Circuit image styling */
-        .circuit-image {
-            max-width: 70%; /* Keep your increased size */
             height: auto;
-            border-radius: 8px;
-            object-fit: contain; /* Ensures the image fits its container without distortion */
-            display: block; /* Removes any inline spacing */
-            margin: 0; /* Ensures no extra margins */
-            padding: 0; /* Removes any padding */
-            }
-
-        /* Explanation section styling */
-        .circuit-info {
-            width: 30%; /* Adjusted text width */
-            text-align: left;
+            object-fit: cover;
+            display: block;
         }
 
-        .circuit-info h2 {
-            font-size: 2.2rem; /* Slightly larger heading */
-            color: #00796b;
-            margin-bottom: 15px;
+        .card-content {
+            padding: 20px;
         }
 
-        .circuit-info p {
-            font-size: 1.3rem; /* Increased font size */
+        .card-content h2 {
+            font-size: 1.5rem;
+            color: #00695c;
+            margin-bottom: 10px;
+        }
+
+        .card-content p {
+            font-size: 1rem;
             color: #555;
         }
 
-        /* Optional: Adding responsiveness for smaller screens */
-        @media (max-width: 768px) {
-            .content-wrapper {
-                width: 90%;
-            }
-
-            .circuit-box {
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-                padding: 40px; /* Adjusted padding for small screens */
-            }
-
-            .circuit-image {
-                max-width: 80%;
-                margin-bottom: 20px;
-            }
-
-            .circuit-info {
-                width: 100%;
-            }
+        footer {
+            text-align: center;
+            font-size: 0.9rem;
+            color: #999;
+            padding: 30px 0;
         }
     </style>
 </head>
 <body>
 
-    <div class="top-container">
+    <header>
         <h1>Electronix</h1>
-        <p>Electronics learning journey</p>
-        <a href="https://linkedin.com/in/onuremrecakir" class="linkedin-link" target="_blank">
-            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn Logo">
-        </a>
-    </div>
+        <p>My hands-on journey through electronics – curated & shared</p>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/onuremrecakir" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+            </a>
+        </div>
+    </header>
 
-    <div class="content-wrapper">
-        <div class="circuit-box">
-            <img src="circuit1.svg" alt="Circuit 1" class="circuit-image">
-            <div class="circuit-info">
-                <h2>LM555 Timer Circuit</h2>
-                <p>Purpose of this circuit is to obtain an oscillating signal to use in necessary applications. </p>
+    <main class="container">
+        <div class="card-grid">
+            <div class="card">
+                <img src="circuit1.svg" alt="LM555 Timer Circuit">
+                <div class="card-content">
+                    <h2>LM555 Timer Circuit</h2>
+                    <p>This circuit generates an oscillating signal useful for timing and triggering applications using the classic 555 IC.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="circuit2.svg" alt="Voltage Regulator">
+                <div class="card-content">
+                    <h2>Voltage Regulator</h2>
+                    <p>Ensures a steady voltage output despite varying input or load—vital for powering sensitive electronics safely and reliably.</p>
+                </div>
             </div>
         </div>
+    </main>
 
-        <div class="circuit-box">
-            <img src="circuit2.svg" alt="Circuit 2" class="circuit-image">
-            <div class="circuit-info">
-                <h2>Circuit 2: Voltage Regulator</h2>
-                <p>This circuit is designed to maintain a constant output voltage, regardless of variations in input voltage or output current. It is essential for providing stable power to sensitive components.</p>
-            </div>
-        </div>
-    </div>
+    <footer>
+        &copy; 2025 Onur Emre Çakır — All rights reserved.
+    </footer>
 
 </body>
 </html>
