@@ -2,28 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Electronix – Onur Emre Çakır</title>
-  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/3/3b/Electric_icon.svg" type="image/svg+xml">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Electronix</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2300796b' d='M13 2v5h3l-4 8v7l-1-6h-3l4-8V2h1z'/%3E%3C/svg%3E">
   <style>
-    :root {
-      --bg: #f4f6f8;
-      --text: #333;
-      --card-bg: white;
-      --accent: #00695c;
-      --header-bg: #004d40;
-      --linkedin-grey: #7d7d7d;
-    }
-
-    body.dark {
-      --bg: #121212;
-      --text: #ddd;
-      --card-bg: #1e1e1e;
-      --accent: #4dd0e1;
-      --header-bg: #1b1b1b;
-      --linkedin-grey: #b0b0b0;
-    }
-
     * {
       margin: 0;
       padding: 0;
@@ -31,263 +13,202 @@
     }
 
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: var(--bg);
-      color: var(--text);
-      transition: background 0.3s, color 0.3s;
+      font-family: Arial, sans-serif;
+      background-color: #e0f7fa;
+      color: #000;
+      transition: background-color 0.3s, color 0.3s;
     }
 
-    a {
-      text-decoration: none;
-      color: inherit;
+    .dark-mode {
+      background-color: #121212;
+      color: #eee;
     }
 
-    header {
-      background-color: var(--header-bg);
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #d3d3d3;
+      flex-wrap: wrap;
+    }
+
+    .header h1 {
+      font-size: 2rem;
+    }
+
+    .toggle-darkmode {
+      padding: 10px 15px;
+      background-color: #00796b;
       color: white;
-      padding: 40px 20px;
-      text-align: center;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      position: relative;
-    }
-
-    header h1 {
-      font-size: 2.8rem;
-      margin-bottom: 10px;
-    }
-
-    header p {
-      font-size: 1.2rem;
-      opacity: 0.85;
-    }
-
-    .social-links {
-      margin-top: 15px;
-    }
-
-    .social-links img {
-      width: 28px;
-      height: 28px;
-      transition: transform 0.3s ease;
-      filter: brightness(0) saturate(100%) invert(31%) sepia(0%) saturate(0%) hue-rotate(166deg) brightness(87%) contrast(86%);
-    }
-
-    .dark-toggle {
-      position: absolute;
-      top: 20px;
-      right: 20px;
-      background: transparent;
-      border: 2px solid white;
-      color: white;
-      padding: 6px 12px;
-      border-radius: 6px;
+      border: none;
+      border-radius: 5px;
       cursor: pointer;
-      font-size: 0.9rem;
-      transition: background 0.3s, color 0.3s;
+      margin-top: 10px;
     }
 
-    @media (max-width: 768px) {
-      .dark-toggle {
-        top: 10px;
-        right: 10px;
-      }
+    .linkedin-link img {
+      width: 24px;
+      height: 24px;
+      filter: none;
     }
 
-    body.dark .dark-toggle {
-      border-color: var(--accent);
-      color: var(--accent);
-    }
-
-    .container {
-      max-width: 1100px;
-      margin: 40px auto;
-      padding: 0 20px;
+    body.dark-mode .linkedin-link img {
+      filter: grayscale(100%) brightness(2);
     }
 
     .card-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      padding: 30px;
     }
 
     .card {
-      background-color: var(--card-bg);
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.07);
-      overflow: hidden;
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      max-width: 800px;
+      width: 100%;
       cursor: pointer;
-      transition: transform 0.2s ease, box-shadow 0.3s ease;
+      transition: transform 0.2s;
     }
 
     .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+      transform: scale(1.01);
     }
 
     .card img {
-      width: 100%;
+      max-width: 100%;
       height: auto;
-      object-fit: cover;
-      display: block;
-      transition: filter 0.3s ease;
-    }
-
-    body.dark .card img {
-      filter: invert(1) hue-rotate(180deg);
+      border-radius: 8px;
     }
 
     .card-content {
-      padding: 20px;
+      margin-top: 20px;
     }
 
-    .card-content h2 {
-      font-size: 1.5rem;
-      color: var(--accent);
-      margin-bottom: 10px;
-    }
-
-    .card-content p {
-      font-size: 1rem;
-    }
-
-    footer {
-      text-align: center;
-      font-size: 0.9rem;
-      color: #999;
-      padding: 30px 0;
-    }
-
-    /* Modal */
     .modal {
       display: none;
       position: fixed;
-      z-index: 1000;
-      left: 0; top: 0;
-      width: 100%;
-      height: 100%;
-      overflow: auto;
-      background-color: rgba(0,0,0,0.7);
+      z-index: 9999;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.8);
       justify-content: center;
       align-items: center;
+      padding: 20px;
     }
 
     .modal-content {
-      background-color: var(--card-bg);
-      color: var(--text);
-      padding: 30px;
+      background: #fff;
+      padding: 20px;
       border-radius: 10px;
-      max-width: 700px;
-      width: 90%;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      max-width: 800px;
+      width: 100%;
       position: relative;
-      animation: fadeIn 0.3s ease-in-out;
       text-align: center;
+    }
+
+    .dark-mode .modal-content {
+      background: #1e1e1e;
+      color: #fff;
     }
 
     .modal-content img {
       max-width: 100%;
       height: auto;
-      margin-bottom: 20px;
-      transition: filter 0.3s ease;
+      display: block;
+      margin: 0 auto;
+      filter: invert(0);
+    }
+
+    .dark-mode .modal-content img {
+      filter: invert(1);
+    }
+
+    .modal-content h2 {
+      margin-top: 15px;
     }
 
     .modal-content p {
       text-align: left;
+      margin-top: 15px;
     }
 
     .close-modal {
       position: absolute;
-      top: 15px;
+      top: 10px;
       right: 20px;
-      font-size: 1.5rem;
+      font-size: 24px;
+      font-weight: bold;
       cursor: pointer;
-      color: var(--accent);
-      z-index: 1001;
+      color: #333;
+      z-index: 10000;
     }
 
-    body.dark .modal-content img {
-      filter: invert(1) hue-rotate(180deg);
+    .dark-mode .close-modal {
+      color: #fff;
     }
 
-    @keyframes fadeIn {
-      from { opacity: 0; transform: scale(0.95); }
-      to { opacity: 1; transform: scale(1); }
+    @media (max-width: 600px) {
+      .header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .toggle-darkmode {
+        align-self: flex-end;
+      }
     }
   </style>
 </head>
 <body>
-
-  <header>
+  <div class="header">
     <h1>Electronix</h1>
-    <p>My hands-on journey through electronics – curated & shared</p>
-    <div class="social-links">
-      <a href="https://linkedin.com/in/onuremrecakir" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
-      </a>
-    </div>
-    <button class="dark-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
-  </header>
+    <button class="toggle-darkmode" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    <a href="https://linkedin.com/in/onuremrecakir" class="linkedin-link" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+    </a>
+  </div>
 
-  <main class="container">
-    <div class="card-grid">
-      <div class="card" onclick="openModal('modal1')">
-        <img src="circuit1.svg" alt="LM555 Timer Circuit">
-        <div class="card-content">
-          <h2>LM555 Timer Circuit</h2>
-          <p>Oscillating signal generator using the 555 timer IC.</p>
-         </div>
-        </div>
-              <div class="card-grid">
-      <div class="card" onclick="openModal('modal2')">
-        <img src="circuit2.svg" alt="LM555 Timer Circuit with Buzzer">
-        <div class="card-content">
-          <h2>LM555 Timer Circuit with Buzzer</h2>
-          <p>Buzzer added.</p>
-        </div>
+  <div class="card-grid">
+    <div class="card" onclick="openModal('modal1')">
+      <img src="circuit1.svg" alt="LM555 Timer Circuit">
+      <div class="card-content">
+        <h2>LM555 Timer Circuit</h2>
+        <p>Purpose of this circuit is to obtain an oscillating signal to use in necessary applications.</p>
       </div>
     </div>
-  </main>
+  </div>
 
-  <footer>
-    &copy; 2025 Onur Emre Çakır — All rights reserved.
-  </footer>
-
+  <!-- Modal -->
   <div id="modal1" class="modal" onclick="closeModal(event)">
     <div class="modal-content">
       <span class="close-modal" onclick="closeModal(event)">&times;</span>
       <img src="circuit1.svg" alt="LM555 Timer Circuit">
-      <h2>LM555 Timer Circuit with Buzzer</h2>
-      <p>This circuit generates an oscillating signal using the 555 Timer IC. It is commonly used in timing applications such as LED blinkers, pulse generators, and tone generators. You can adjust the frequency by modifying resistor and capacitor values.</p>
-    </div>
-  </div>
-
-   <div id="modal2" class="modal" onclick="closeModal(event)">
-    <div class="modal-content">
-      <span class="close-modal" onclick="closeModal(event)">&times;</span>
-      <img src="circuit2.svg" alt="LM555 Timer Circuit with Buzzer">
-      <h2>LM555 Timer Circuit with Buzzer</h2>
-      <p>Buzzer Added.</p>
+      <h2>LM555 Timer Circuit</h2>
+      <p>This timer circuit creates a square wave output for use in oscillating systems such as clocks, timers, and pulse generation tools. It is one of the fundamental circuits for beginners in electronics.</p>
     </div>
   </div>
 
   <script>
     function toggleDarkMode() {
-      document.body.classList.toggle('dark');
+      document.body.classList.toggle("dark-mode");
     }
 
     function openModal(id) {
-      document.getElementById(id).style.display = 'flex';
+      document.getElementById(id).style.display = "flex";
     }
 
     function closeModal(event) {
-      if (
-        event.target.classList.contains('modal') ||
-        event.target.classList.contains('close-modal')
-      ) {
-        document.querySelectorAll('.modal').forEach(m => m.style.display = 'none');
+      if (event.target.classList.contains("modal") || event.target.classList.contains("close-modal")) {
+        document.querySelectorAll(".modal").forEach(modal => modal.style.display = "none");
       }
     }
   </script>
-
 </body>
 </html>
