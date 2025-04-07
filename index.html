@@ -235,6 +235,14 @@
         <div class="card-content">
           <h2>LM555 Timer Circuit</h2>
           <p>Oscillating signal generator using the 555 timer IC.</p>
+         </div>
+        </div>
+              <div class="card-grid">
+      <div class="card" onclick="openModal('modal2')">
+        <img src="circuit2.svg" alt="LM555 Timer Circuit with Buzzer">
+        <div class="card-content">
+          <h2>LM555 Timer Circuit with Buzzer</h2>
+          <p>Buzzer added.</p>
         </div>
       </div>
     </div>
@@ -248,7 +256,16 @@
     <div class="modal-content">
       <span class="close-modal" onclick="closeModal(event)">&times;</span>
       <img src="circuit1.svg" alt="LM555 Timer Circuit">
-      <h2>LM555 Timer Circuit</h2>
+      <h2>LM555 Timer Circuit with Buzzer</h2>
+      <p>Buzzer added.</p>
+    </div>
+  </div>
+
+   <div id="modal2" class="modal" onclick="closeModal(event)">
+    <div class="modal-content">
+      <span class="close-modal" onclick="closeModal(event)">&times;</span>
+      <img src="circuit2.svg" alt="LM555 Timer Circuit with Buzzer">
+      <h2>LM555 Timer Circuit with Buzzer</h2>
       <p>This circuit generates an oscillating signal using the 555 Timer IC. It is commonly used in timing applications such as LED blinkers, pulse generators, and tone generators. You can adjust the frequency by modifying resistor and capacitor values.</p>
     </div>
   </div>
