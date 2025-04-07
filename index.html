@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Electronix – Onur Emre Çakır</title>
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/3/3b/Electric_icon.svg" type="image/svg+xml">
   <style>
     :root {
       --bg: #f4f6f8;
@@ -11,6 +12,7 @@
       --card-bg: white;
       --accent: #00695c;
       --header-bg: #004d40;
+      --linkedin-grey: #7d7d7d;
     }
 
     body.dark {
@@ -19,6 +21,7 @@
       --card-bg: #1e1e1e;
       --accent: #4dd0e1;
       --header-bg: #1b1b1b;
+      --linkedin-grey: #b0b0b0;
     }
 
     * {
@@ -66,10 +69,7 @@
       width: 28px;
       height: 28px;
       transition: transform 0.3s ease;
-    }
-
-    .social-links img:hover {
-      transform: scale(1.1);
+      filter: brightness(0) saturate(100%) invert(31%) sepia(0%) saturate(0%) hue-rotate(166deg) brightness(87%) contrast(86%);
     }
 
     .dark-toggle {
@@ -84,6 +84,13 @@
       cursor: pointer;
       font-size: 0.9rem;
       transition: background 0.3s, color 0.3s;
+    }
+
+    @media (max-width: 768px) {
+      .dark-toggle {
+        top: 10px;
+        right: 10px;
+      }
     }
 
     body.dark .dark-toggle {
@@ -184,8 +191,8 @@
       transition: filter 0.3s ease;
     }
 
-    body.dark .modal-content img {
-      filter: invert(1) hue-rotate(180deg);
+    .modal-content p {
+      text-align: left;
     }
 
     .close-modal {
@@ -195,6 +202,11 @@
       font-size: 1.5rem;
       cursor: pointer;
       color: var(--accent);
+      z-index: 1001;
+    }
+
+    body.dark .modal-content img {
+      filter: invert(1) hue-rotate(180deg);
     }
 
     @keyframes fadeIn {
@@ -225,14 +237,6 @@
           <p>Oscillating signal generator using the 555 timer IC.</p>
         </div>
       </div>
-
-      <div class="card" onclick="openModal('modal2')">
-        <img src="circuit2.svg" alt="Voltage Regulator">
-        <div class="card-content">
-          <h2>Voltage Regulator</h2>
-          <p>Provides stable voltage output for sensitive components.</p>
-        </div>
-      </div>
     </div>
   </main>
 
@@ -240,22 +244,12 @@
     &copy; 2025 Onur Emre Çakır — All rights reserved.
   </footer>
 
-  <!-- Modals -->
   <div id="modal1" class="modal" onclick="closeModal(event)">
     <div class="modal-content">
       <span class="close-modal" onclick="closeModal(event)">&times;</span>
       <img src="circuit1.svg" alt="LM555 Timer Circuit">
       <h2>LM555 Timer Circuit</h2>
       <p>This circuit generates an oscillating signal using the 555 Timer IC. It is commonly used in timing applications such as LED blinkers, pulse generators, and tone generators. You can adjust the frequency by modifying resistor and capacitor values.</p>
-    </div>
-  </div>
-
-  <div id="modal2" class="modal" onclick="closeModal(event)">
-    <div class="modal-content">
-      <span class="close-modal" onclick="closeModal(event)">&times;</span>
-      <img src="circuit2.svg" alt="Voltage Regulator">
-      <h2>Voltage Regulator</h2>
-      <p>This circuit keeps the output voltage constant regardless of fluctuations in input voltage or output current. Often built around components like the 7805 regulator IC, it ensures that your components receive safe and consistent power.</p>
     </div>
   </div>
 
