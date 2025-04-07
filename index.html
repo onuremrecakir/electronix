@@ -1,157 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Electronix – Onur Emre Çakır</title>
-    <style>
-        /* Reset & base styles */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Electronix – Onur Emre Çakır</title>
+  <style>
+    :root {
+      --bg: #f4f6f8;
+      --text: #333;
+      --card-bg: white;
+      --accent: #00695c;
+      --header-bg: #004d40;
+    }
 
-        body {
-            font-family: 'Segoe UI', sans-serif;
-            background-color: #f4f6f8;
-            color: #333;
-            line-height: 1.6;
-            padding: 0;
-        }
+    body.dark {
+      --bg: #121212;
+      --text: #ddd;
+      --card-bg: #1e1e1e;
+      --accent: #4dd0e1;
+      --header-bg: #1b1b1b;
+    }
 
-        a {
-            text-decoration: none;
-            color: inherit;
-        }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-        /* Header */
-        header {
-            background-color: #004d40;
-            color: white;
-            padding: 40px 20px;
-            text-align: center;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      transition: background 0.3s, color 0.3s;
+    }
 
-        header h1 {
-            font-size: 2.8rem;
-            margin-bottom: 10px;
-        }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
 
-        header p {
-            font-size: 1.2rem;
-            opacity: 0.85;
-        }
+    header {
+      background-color: var(--header-bg);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      position: relative;
+    }
 
-        .social-links {
-            margin-top: 15px;
-        }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
 
-        .social-links img {
-            width: 28px;
-            height: 28px;
-            filter: invert(100%);
-            transition: transform 0.3s ease;
-        }
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.85;
+    }
 
-        .social-links img:hover {
-            transform: scale(1.1);
-        }
+    .social-links {
+      margin-top: 15px;
+    }
 
-        /* Container */
-        .container {
-            max-width: 1100px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
+    .social-links img {
+      width: 28px;
+      height: 28px;
+      filter: invert(100%);
+      transition: transform 0.3s ease;
+    }
 
-        /* Card grid */
-        .card-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
+    .social-links img:hover {
+      transform: scale(1.1);
+    }
 
-        /* Card */
-        .card {
-            background-color: white;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.07);
-            overflow: hidden;
-            transition: transform 0.2s ease, box-shadow 0.3s ease;
-        }
+    .dark-toggle {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      background: transparent;
+      border: 2px solid white;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      transition: background 0.3s, color 0.3s;
+    }
 
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 16px rgba(0,0,0,0.15);
-        }
+    .dark body .dark-toggle {
+      border-color: var(--accent);
+      color: var(--accent);
+    }
 
-        .card img {
-            width: 100%;
-            height: auto;
-            object-fit: cover;
-            display: block;
-        }
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
 
-        .card-content {
-            padding: 20px;
-        }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+    }
 
-        .card-content h2 {
-            font-size: 1.5rem;
-            color: #00695c;
-            margin-bottom: 10px;
-        }
+    .card {
+      background-color: var(--card-bg);
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+      overflow: hidden;
+      cursor: pointer;
+      transition: transform 0.2s ease, box-shadow 0.3s ease;
+    }
 
-        .card-content p {
-            font-size: 1rem;
-            color: #555;
-        }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
 
-        footer {
-            text-align: center;
-            font-size: 0.9rem;
-            color: #999;
-            padding: 30px 0;
-        }
-    </style>
+    .card img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      display: block;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-content h2 {
+      font-size: 1.5rem;
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+
+    .card-content p {
+      font-size: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #999;
+      padding: 30px 0;
+    }
+
+    /* Modal */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      left: 0; top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.7);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-content {
+      background-color: var(--card-bg);
+      color: var(--text);
+      padding: 30px;
+      border-radius: 10px;
+      max-width: 600px;
+      width: 90%;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      position: relative;
+      animation: fadeIn 0.3s ease-in-out;
+    }
+
+    .close-modal {
+      position: absolute;
+      top: 15px;
+      right: 20px;
+      font-size: 1.5rem;
+      cursor: pointer;
+      color: var(--accent);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+  </style>
 </head>
 <body>
 
-    <header>
-        <h1>Electronix</h1>
-        <p>My hands-on journey through electronics – curated & shared</p>
-        <div class="social-links">
-            <a href="https://linkedin.com/in/onuremrecakir" target="_blank">
-                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
-            </a>
+  <header>
+    <h1>Electronix</h1>
+    <p>My hands-on journey through electronics – curated & shared</p>
+    <div class="social-links">
+      <a href="https://linkedin.com/in/onuremrecakir" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+      </a>
+    </div>
+    <button class="dark-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+  </header>
+
+  <main class="container">
+    <div class="card-grid">
+      <div class="card" onclick="openModal('modal1')">
+        <img src="circuit1.svg" alt="LM555 Timer Circuit">
+        <div class="card-content">
+          <h2>LM555 Timer Circuit</h2>
+          <p>Oscillating signal generator using the 555 timer IC.</p>
         </div>
-    </header>
+      </div>
 
-    <main class="container">
-        <div class="card-grid">
-            <div class="card">
-                <img src="circuit1.svg" alt="LM555 Timer Circuit">
-                <div class="card-content">
-                    <h2>LM555 Timer Circuit</h2>
-                    <p>This circuit generates an oscillating signal useful for timing and triggering applications using the classic 555 IC.</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="circuit2.svg" alt="Voltage Regulator">
-                <div class="card-content">
-                    <h2>Voltage Regulator</h2>
-                    <p>Ensures a steady voltage output despite varying input or load—vital for powering sensitive electronics safely and reliably.</p>
-                </div>
-            </div>
+      <div class="card" onclick="openModal('modal2')">
+        <img src="circuit2.svg" alt="Voltage Regulator">
+        <div class="card-content">
+          <h2>Voltage Regulator</h2>
+          <p>Provides stable voltage output for sensitive components.</p>
         </div>
-    </main>
+      </div>
+    </div>
+  </main>
 
-    <footer>
-        &copy; 2025 Onur Emre Çakır — All rights reserved.
-    </footer>
+  <footer>
+    &copy; 2025 Onur Emre Çakır — All rights reserved.
+  </footer>
+
+  <!-- Modals -->
+  <div id="modal1" class="modal" onclick="closeModal(event)">
+    <div class="modal-content">
+      <span class="close-modal" onclick="closeModal(event)">&times;</span>
+      <h2>LM555 Timer Circuit</h2>
+      <p>This circuit generates an oscillating signal using the versatile 555 Timer IC. It is commonly used in timing applications such as LED blinkers, pulse generators, and tone generators. You can adjust the frequency by modifying resistor and capacitor values.</p>
+    </div>
+  </div>
+
+  <div id="modal2" class="modal" onclick="closeModal(event)">
+    <div class="modal-content">
+      <span class="close-modal" onclick="closeModal(event)">&times;</span>
+      <h2>Voltage Regulator</h2>
+      <p>This circuit keeps the output voltage constant regardless of fluctuations in input voltage or output current. Often built around components like the 7805 regulator IC, it ensures that your components receive safe and consistent power.</p>
+    </div>
+  </div>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle('dark');
+    }
+
+    function openModal(id) {
+      document.getElementById(id).style.display = 'flex';
+    }
+
+    function closeModal(event) {
+      if (
+        event.target.classList.contains('modal') ||
+        event.target.classList.contains('close-modal')
+      ) {
+        document.querySelectorAll('.modal').forEach(m => m.style.display = 'none');
+      }
+    }
+  </script>
 
 </body>
 </html>
