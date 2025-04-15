@@ -140,34 +140,13 @@ button#darkModeToggle {
   display: block;
 }
 
-.main-nav-tabs {
-  text-align: center;
-  margin-top: 1rem;
-}
 
-.main-nav-tabs ul {
-  list-style: none;
-  padding: 0;
-  display: inline-flex;
-  gap: 1rem;
-}
 
 .main-nav-tabs li {
   display: inline-block;
 }
 
-.tab {
-  padding: 0.5rem 1rem;
-  background: #f0f0f0;
-  border-radius: 5px 5px 0 0;
-  cursor: pointer;
-}
 
-.tab.active {
-  background: #333;
-  color: #fff;
-  border-bottom: none;
-}
 
 body.dark .main-nav-tabs {
   background: #111;
