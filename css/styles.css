@@ -75,6 +75,9 @@ button#darkModeToggle {
   font-size: 1.8rem;
   cursor: pointer;
   color: inherit;
+  position: absolute;
+  top: 20px;
+  right: 20px;
   transition: transform 0.2s;
 }
 #darkModeToggle:hover {
