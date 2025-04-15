@@ -1,0 +1,911 @@
+<!--version="1.0" standalone="no"--><!DOCTYPE html PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="body_1" width="1917" height="860" preserveAspectRatio="xMidYMid meet" zoomAndPan="magnify" version="1.0" contentScriptType="text/ecmascript" contentStyleType="text/css">
+
+<g transform="matrix(1.3333334 0 0 1.3333334 0 0)">
+    <path d="M0 0L1437.75 0L1437.75 645L0 645z" stroke="none" fill="#FFFFFF" fill-rule="evenodd"/>
+	<g transform="matrix(0.75 0 0 0.75 -0 -0)">
+		<g>
+			<g>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1165 319L1463 319L1463 659L1165 659z" stroke="none" fill="#FFFFFF" fill-rule="evenodd" fill-opacity="0"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="0" y="-2.6132812" style="fill: rgb(0, 0, 0); font-family: Andale Mono;" font-size="12">
+
+				</text>
+                <path transform="matrix(1 0 0 1 1165 316.38672)" d="M0 0L0 0L0 0L0 0z" stroke="none" fill="#FFFFFF" fill-rule="evenodd" fill-opacity="0"/>
+				<g transform="matrix(1 0 0 1 1165 316.38672)">
+				</g>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1165 319L1463 319" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1463 319L1463 319" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1463 319L1463 659" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1463 659L1463 659" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1463 659L1165 659" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1165 659L1165 659" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1165 659L1165 319" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1165 319L1165 319" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1287 319L1287 340" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1287 340L1287 340" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1340 319L1340 340" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1340 340L1340 340" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1303 356L1324 356" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1324 356L1324 356" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1303 356L1302 356" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1302 356L1302 356" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1302 356L1300 356" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1300 356L1300 356" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1300 356L1299 355" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1299 355L1299 355" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1299 355L1297 355" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1297 355L1297 355" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1297 355L1296 354" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1296 354L1296 354" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1296 354L1294 353" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1294 353L1294 353" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1294 353L1293 352" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1293 352L1293 352" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1293 352L1292 351" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1292 351L1292 351" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1292 351L1291 350" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1291 350L1291 350" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1291 350L1290 349" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1290 349L1290 349" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1290 349L1289 348" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1289 348L1289 348" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1289 348L1288 346" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1288 346L1288 346" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1288 346L1288 345" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1288 345L1288 345" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1288 345L1288 343" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1288 343L1288 343" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1288 343L1287 342" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1287 342L1287 342" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1287 342L1287 340" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1287 340L1287 340" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1340 340L1340 342" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1340 342L1340 342" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1340 342L1340 343" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1340 343L1340 343" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1340 343L1340 345" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1340 345L1340 345" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1340 345L1339 346" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1339 346L1339 346" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1339 346L1339 348" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1339 348L1339 348" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1339 348L1338 349" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1338 349L1338 349" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1338 349L1337 350" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1337 350L1337 350" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1337 350L1336 351" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1336 351L1336 351" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1336 351L1335 352" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1335 352L1335 352" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1335 352L1333 353" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1333 353L1333 353" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1333 353L1332 354" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1332 354L1332 354" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1332 354L1331 355" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1331 355L1331 355" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1331 355L1329 355" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1329 355L1329 355" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1329 355L1328 356" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1328 356L1328 356" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1328 356L1326 356" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1326 356L1326 356" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1326 356L1324 356" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1324 356L1324 356" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="1175" y="376.56738" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+G
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1198" y="376.56738" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+N
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1222" y="376.56738" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+D
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1175" y="461.56738" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+T
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1194" y="461.56738" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+R
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1217" y="461.56738" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+I
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1232" y="461.56738" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+G
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1175" y="547.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+O
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1199" y="547.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+U
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1222" y="547.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+T
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1175" y="632.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+R
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1198" y="632.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+S
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1218" y="632.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+T
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1410" y="632.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+C
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1431" y="632.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+V
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1366" y="547.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+T
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1385" y="547.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+H
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1409" y="547.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+R
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1432" y="547.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+S
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1394" y="461.56738" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+D
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1417" y="461.56738" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+I
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1432" y="461.56738" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+S
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1399" y="376.56738" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+V
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1420" y="376.56738" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+c
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1436" y="376.56738" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+c
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1317 403.5C 1317 404.4279 1316.631 405.31876 1315.9749 405.97488C 1315.3187 406.631 1314.4279 407 1313.5 407C 1312.5721 407 1311.6813 406.631 1311.0251 405.97488C 1310.369 405.31876 1310 404.4279 1310 403.5C 1310 402.5721 1310.369 401.68124 1311.0251 401.02512C 1311.6813 400.369 1312.5721 400 1313.5 400C 1314.4279 400 1315.3187 400.369 1315.9749 401.02512C 1316.631 401.68124 1317 402.5721 1317 403.5" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="1292.5" y="419.56738" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+U
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1315.5" y="419.56738" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+1
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1317 573.5C 1317 574.4279 1316.631 575.3187 1315.9749 575.97485C 1315.3187 576.631 1314.4279 577 1313.5 577C 1312.5721 577 1311.6813 576.631 1311.0251 575.97485C 1310.369 575.3187 1310 574.4279 1310 573.5C 1310 572.5721 1310.369 571.6813 1311.0251 571.02515C 1311.6813 570.369 1312.5721 570 1313.5 570C 1314.4279 570 1315.3187 570.369 1315.9749 571.02515C 1316.631 571.6813 1317 572.5721 1317 573.5" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="1262.5" y="589.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+N
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1286.5" y="589.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+E
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1305.5" y="589.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+5
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1325.5" y="589.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+5
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1345.5" y="589.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+5
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1686 122L1665 122" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1665 122L1665 122" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1686 69L1665 69" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1665 69L1665 69" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 132L1676 111" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 111L1676 111" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 42L1676 53" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 53L1676 53" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 148L1676 138" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 138L1676 138" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1717 95C 1717 106.13482 1712.572 116.82498 1704.6985 124.69849C 1696.825 132.57199 1686.1348 137 1675 137C 1663.8652 137 1653.175 132.57199 1645.3015 124.69849C 1637.428 116.82498 1633 106.13482 1633 95C 1633 83.86518 1637.428 73.17502 1645.3015 65.30151C 1653.175 57.428005 1663.8652 53 1675 53C 1686.1348 53 1696.825 57.428005 1704.6985 65.30151C 1712.572 73.17502 1717 83.86518 1717 95" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1647 41.5C 1647 42.427902 1646.631 43.31875 1645.9749 43.974873C 1645.3187 44.630997 1644.4279 45 1643.5 45C 1642.5721 45 1641.6813 44.630997 1641.0251 43.974873C 1640.369 43.31875 1640 42.427902 1640 41.5C 1640 40.572098 1640.369 39.68125 1641.0251 39.025127C 1641.6813 38.369003 1642.5721 38 1643.5 38C 1644.4279 38 1645.3187 38.369003 1645.9749 39.025127C 1646.631 39.68125 1647 40.572098 1647 41.5" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="1603" y="57.567383" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+V
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1624" y="57.567383" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+1
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1647 147.5C 1647 148.4279 1646.631 149.31874 1645.9749 149.97487C 1645.3187 150.631 1644.4279 151 1643.5 151C 1642.5721 151 1641.6813 150.631 1641.0251 149.97487C 1640.369 149.31874 1640 148.4279 1640 147.5C 1640 146.5721 1640.369 145.68126 1641.0251 145.02513C 1641.6813 144.369 1642.5721 144 1643.5 144C 1644.4279 144 1645.3187 144.369 1645.9749 145.02513C 1646.631 145.68126 1647 146.5721 1647 147.5" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="1624" y="163.56738" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+9
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 457L1676 468" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 468L1676 468" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1655 446L1676 457" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 457L1676 457" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1697 425L1655 446" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1655 446L1655 446" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1655 404L1697 425" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1697 425L1697 425" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1697 383L1655 404" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1655 404L1655 404" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 361L1676 372" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 372L1676 372" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 372L1697 383" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1697 383L1697 383" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1705 392.5C 1705 393.4279 1704.631 394.31876 1703.9749 394.97488C 1703.3187 395.631 1702.4279 396 1701.5 396C 1700.5721 396 1699.6813 395.631 1699.0251 394.97488C 1698.369 394.31876 1698 393.4279 1698 392.5C 1698 391.5721 1698.369 390.68124 1699.0251 390.02512C 1699.6813 389.369 1700.5721 389 1701.5 389C 1702.4279 389 1703.3187 389.369 1703.9749 390.02512C 1704.631 390.68124 1705 391.5721 1705 392.5" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="1702" y="408.56738" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+R
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1725" y="408.56738" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+1
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1705 440.5C 1705 441.4279 1704.631 442.31876 1703.9749 442.97488C 1703.3187 443.631 1702.4279 444 1701.5 444C 1700.5721 444 1699.6813 443.631 1699.0251 442.97488C 1698.369 442.31876 1698 441.4279 1698 440.5C 1698 439.5721 1698.369 438.68124 1699.0251 438.02512C 1699.6813 437.369 1700.5721 437 1701.5 437C 1702.4279 437 1703.3187 437.369 1703.9749 438.02512C 1704.631 438.68124 1705 439.5721 1705 440.5" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="1702" y="456.56738" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+3
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1722" y="456.56738" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+3
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1742" y="456.56738" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+0
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 564L1676 574" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 574L1676 574" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1655 553L1676 564" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 564L1676 564" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1697 532L1655 553" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1655 553L1655 553" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1655 510L1697 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1697 532L1697 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1697 489L1655 510" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1655 510L1655 510" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 468L1676 478" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 478L1676 478" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 478L1697 489" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1697 489L1697 489" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1705 499.5C 1705 500.4279 1704.631 501.31876 1703.9749 501.97488C 1703.3187 502.631 1702.4279 503 1701.5 503C 1700.5721 503 1699.6813 502.631 1699.0251 501.97488C 1698.369 501.31876 1698 500.4279 1698 499.5C 1698 498.5721 1698.369 497.68124 1699.0251 497.02512C 1699.6813 496.369 1700.5721 496 1701.5 496C 1702.4279 496 1703.3187 496.369 1703.9749 497.02512C 1704.631 497.68124 1705 498.5721 1705 499.5" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="1702" y="515.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+R
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1725" y="515.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+2
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1705 547.5C 1705 548.4279 1704.631 549.3187 1703.9749 549.97485C 1703.3187 550.631 1702.4279 551 1701.5 551C 1700.5721 551 1699.6813 550.631 1699.0251 549.97485C 1698.369 549.3187 1698 548.4279 1698 547.5C 1698 546.5721 1698.369 545.6813 1699.0251 545.02515C 1699.6813 544.369 1700.5721 544 1701.5 544C 1702.4279 544 1703.3187 544.369 1703.9749 545.02515C 1704.631 545.6813 1705 546.5721 1705 547.5" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="1702" y="563.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+3
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1722" y="563.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+3
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1742" y="563.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+1
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1527 707L1527 745" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1527 745L1527 745" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1527 697L1527 659" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1527 659L1527 659" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1505 697L1548 697" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1548 697L1548 697" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1505 707L1548 707" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1548 707L1548 707" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1540 669.5C 1540 670.4279 1539.631 671.3187 1538.9749 671.97485C 1538.3187 672.631 1537.4279 673 1536.5 673C 1535.5721 673 1534.6813 672.631 1534.0251 671.97485C 1533.369 671.3187 1533 670.4279 1533 669.5C 1533 668.5721 1533.369 667.6813 1534.0251 667.02515C 1534.6813 666.369 1535.5721 666 1536.5 666C 1537.4279 666 1538.3187 666.369 1538.9749 667.02515C 1539.631 667.6813 1540 668.5721 1540 669.5" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="1537" y="685.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+C
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1558" y="685.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+1
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1540 733.5C 1540 734.4279 1539.631 735.3187 1538.9749 735.97485C 1538.3187 736.631 1537.4279 737 1536.5 737C 1535.5721 737 1534.6813 736.631 1534.0251 735.97485C 1533.369 735.3187 1533 734.4279 1533 733.5C 1533 732.5721 1533.369 731.6813 1534.0251 731.02515C 1534.6813 730.369 1535.5721 730 1536.5 730C 1537.4279 730 1538.3187 730.369 1538.9749 731.02515C 1539.631 731.6813 1540 732.5721 1540 733.5" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="1537" y="749.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+0
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1557" y="749.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+.
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1567" y="749.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+0
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1587" y="749.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+1
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1607" y="749.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+µ
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 707L1676 745" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 745L1676 745" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 697L1676 659" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 659L1676 659" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1655 697L1697 697" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1697 697L1697 697" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1655 707L1697 707" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1697 707L1697 707" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1689 669.5C 1689 670.4279 1688.631 671.3187 1687.9749 671.97485C 1687.3187 672.631 1686.4279 673 1685.5 673C 1684.5721 673 1683.6813 672.631 1683.0251 671.97485C 1682.369 671.3187 1682 670.4279 1682 669.5C 1682 668.5721 1682.369 667.6813 1683.0251 667.02515C 1683.6813 666.369 1684.5721 666 1685.5 666C 1686.4279 666 1687.3187 666.369 1687.9749 667.02515C 1688.631 667.6813 1689 668.5721 1689 669.5" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="1686" y="685.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+C
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1707" y="685.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+2
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1689 733.5C 1689 734.4279 1688.631 735.3187 1687.9749 735.97485C 1687.3187 736.631 1686.4279 737 1685.5 737C 1684.5721 737 1683.6813 736.631 1683.0251 735.97485C 1682.369 735.3187 1682 734.4279 1682 733.5C 1682 732.5721 1682.369 731.6813 1683.0251 731.02515C 1683.6813 730.369 1684.5721 730 1685.5 730C 1686.4279 730 1687.3187 730.369 1687.9749 731.02515C 1688.631 731.6813 1689 732.5721 1689 733.5" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="1686" y="749.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+1
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1706" y="749.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+0
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1726" y="749.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+0
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1746" y="749.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+0
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="1766" y="749.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+µ
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M633 670L633 681" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M633 681L633 681" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M611 659L633 670" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M633 670L633 670" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M654 638L611 659" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M611 659L611 659" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M611 617L654 638" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M654 638L654 638" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M654 595L611 617" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M611 617L611 617" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M633 574L633 585" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M633 585L633 585" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M633 585L654 595" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M654 595L654 595" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M662 605.5C 662 606.4279 661.631 607.3187 660.97485 607.97485C 660.3187 608.631 659.4279 609 658.5 609C 657.5721 609 656.6813 608.631 656.02515 607.97485C 655.369 607.3187 655 606.4279 655 605.5C 655 604.5721 655.369 603.6813 656.02515 603.02515C 656.6813 602.369 657.5721 602 658.5 602C 659.4279 602 660.3187 602.369 660.97485 603.02515C 661.631 603.6813 662 604.5721 662 605.5" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="659" y="621.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+R
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="682" y="621.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+3
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M662 653.5C 662 654.4279 661.631 655.3187 660.97485 655.97485C 660.3187 656.631 659.4279 657 658.5 657C 657.5721 657 656.6813 656.631 656.02515 655.97485C 655.369 655.3187 655 654.4279 655 653.5C 655 652.5721 655.369 651.6813 656.02515 651.02515C 656.6813 650.369 657.5721 650 658.5 650C 659.4279 650 660.3187 650.369 660.97485 651.02515C 661.631 651.6813 662 652.5721 662 653.5" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="659" y="669.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+3
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="679" y="669.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+3
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="699" y="669.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+0
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M611 739L654 739" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M654 739L654 739" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M611 707L654 707" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M654 707L654 707" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M654 707L633 739" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M633 739L633 739" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M611 707L633 739" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M633 739L633 739" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M633 681L633 707" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M633 707L633 707" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M633 739L633 766" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M633 766L633 766" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M707 723L702 734" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M702 734L702 734" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M707 723L696 723" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M696 723L696 723" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M707 745L702 755" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M702 755L702 755" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M707 745L696 745" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M696 745L696 745" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M666 713L667 711" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M667 711L667 711" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M667 711L669 709" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M669 709L669 709" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M669 709L671 708" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M671 708L671 708" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M671 708L674 707" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M674 707L674 707" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M674 707L676 707" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M676 707L676 707" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M676 707L679 708" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M679 708L679 708" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M679 708L681 709" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M681 709L681 709" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M681 709L683 711" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M683 711L683 711" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M683 711L685 713" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M685 713L685 713" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M685 713L685 715" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M685 715L685 715" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M685 715L686 718" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M686 718L686 718" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M706 723L704 725" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M704 725L704 725" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M704 725L703 727" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M703 727L703 727" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M703 727L700 728" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M700 728L700 728" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M700 728L698 728" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M698 728L698 728" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M698 728L695 729" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M695 729L695 729" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M695 729L693 728" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M693 728L693 728" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M693 728L690 727" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M690 727L690 727" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M690 727L688 725" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M688 725L688 725" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M688 725L687 723" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M687 723L687 723" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M687 723L686 720" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M686 720L686 720" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M686 720L686 718" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M686 718L686 718" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M666 734L667 732" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M667 732L667 732" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M667 732L669 731" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M669 731L669 731" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M669 731L671 729" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M671 729L671 729" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M671 729L674 729" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M674 729L674 729" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M674 729L676 729" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M676 729L676 729" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M676 729L679 729" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M679 729L679 729" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M679 729L681 730" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M681 730L681 730" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M681 730L683 732" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M683 732L683 732" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M683 732L685 734" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M685 734L685 734" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M685 734L685 737" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M685 737L685 737" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M685 737L686 739" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M686 739L686 739" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M706 744L704 746" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M704 746L704 746" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M704 746L703 748" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M703 748L703 748" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M703 748L700 749" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M700 749L700 749" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M700 749L698 750" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M698 750L698 750" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M698 750L695 750" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M695 750L695 750" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M695 750L693 749" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M693 749L693 749" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M693 749L690 748" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M690 748L690 748" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M690 748L688 746" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M688 746L688 746" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M688 746L687 744" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M687 744L687 744" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M687 744L686 742" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M686 742L686 742" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M686 742L686 739" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M686 739L686 739" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M646 680.5C 646 681.4279 645.631 682.3187 644.97485 682.97485C 644.3187 683.631 643.4279 684 642.5 684C 641.5721 684 640.6813 683.631 640.02515 682.97485C 639.369 682.3187 639 681.4279 639 680.5C 639 679.5721 639.369 678.6813 640.02515 678.02515C 640.6813 677.369 641.5721 677 642.5 677C 643.4279 677 644.3187 677.369 644.97485 678.02515C 645.631 678.6813 646 679.5721 646 680.5" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="643" y="696.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+D
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="666" y="696.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+1
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M646 765.5C 646 766.4279 645.631 767.3187 644.97485 767.97485C 644.3187 768.631 643.4279 769 642.5 769C 641.5721 769 640.6813 768.631 640.02515 767.97485C 639.369 767.3187 639 766.4279 639 765.5C 639 764.5721 639.369 763.6813 640.02515 763.02515C 640.6813 762.369 641.5721 762 642.5 762C 643.4279 762 644.3187 762.369 644.97485 763.02515C 645.631 763.6813 646 764.5721 646 765.5" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="643" y="781.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+D
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M366 532L356 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M356 532L356 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M377 510L366 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M366 532L366 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M398 553L377 510" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M377 510L377 510" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M420 510L398 553" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M398 553L398 553" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M441 553L420 510" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M420 510L420 510" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M462 532L452 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M452 532L452 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M452 532L441 553" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M441 553L441 553" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M412 509.5C 412 510.4279 411.631 511.31876 410.97488 511.97488C 410.31876 512.631 409.4279 513 408.5 513C 407.5721 513 406.68124 512.631 406.02512 511.97488C 405.369 511.31876 405 510.4279 405 509.5C 405 508.5721 405.369 507.68124 406.02512 507.02512C 406.68124 506.369 407.5721 506 408.5 506C 409.4279 506 410.31876 506.369 410.97488 507.02512C 411.631 507.68124 412 508.5721 412 509.5" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="387.5" y="501.94238" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+R
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="410.5" y="501.94238" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+4
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M412 552.5C 412 553.4279 411.631 554.3187 410.97488 554.97485C 410.31876 555.631 409.4279 556 408.5 556C 407.5721 556 406.68124 555.631 406.02512 554.97485C 405.369 554.3187 405 553.4279 405 552.5C 405 551.5721 405.369 550.6813 406.02512 550.02515C 406.68124 549.369 407.5721 549 408.5 549C 409.4279 549 410.31876 549.369 410.97488 550.02515C 411.631 550.6813 412 551.5721 412 552.5" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="379" y="586.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+3
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="399" y="586.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+3
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="419" y="586.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+0
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M175 532L164 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M164 532L164 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M185 510L175 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M175 532L175 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M207 553L185 510" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M185 510L185 510" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M228 510L207 553" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M207 553L207 553" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M249 553L228 510" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M228 510L228 510" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M271 532L260 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M260 532L260 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M260 532L249 553" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M249 553L249 553" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M220 509.5C 220 510.4279 219.631 511.31876 218.97487 511.97488C 218.31874 512.631 217.4279 513 216.5 513C 215.5721 513 214.68126 512.631 214.02513 511.97488C 213.369 511.31876 213 510.4279 213 509.5C 213 508.5721 213.369 507.68124 214.02513 507.02512C 214.68126 506.369 215.5721 506 216.5 506C 217.4279 506 218.31874 506.369 218.97487 507.02512C 219.631 507.68124 220 508.5721 220 509.5" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="195.5" y="501.94238" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+R
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="218.5" y="501.94238" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+5
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M220 552.5C 220 553.4279 219.631 554.3187 218.97487 554.97485C 218.31874 555.631 217.4279 556 216.5 556C 215.5721 556 214.68126 555.631 214.02513 554.97485C 213.369 554.3187 213 553.4279 213 552.5C 213 551.5721 213.369 550.6813 214.02513 550.02515C 214.68126 549.369 215.5721 549 216.5 549C 217.4279 549 218.31874 549.369 218.97487 550.02515C 219.631 550.6813 220 551.5721 220 552.5" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="177" y="586.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+1
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="197" y="586.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+0
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="217" y="586.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+0
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="237" y="586.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+0
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M298 634L302 631" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M302 631L302 631" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M302 631L306 629" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M306 629L306 629" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M306 629L311 628" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M311 628L311 628" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M311 628L316 628" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M316 628L316 628" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M316 628L320 629" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M320 629L320 629" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M320 629L324 631" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M324 631L324 631" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M324 631L328 634" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M328 634L328 634" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M328 634L331 637" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M331 637L331 637" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M331 637L333 642" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M333 642L333 642" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M333 642L334 646" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M334 646L334 646" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M334 646L334 651" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M334 651L334 651" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M334 651L333 656" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M333 656L333 656" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M333 656L331 660" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M331 660L331 660" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M331 660L328 664" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M328 664L328 664" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M328 664L324 667" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M324 667L324 667" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M324 667L320 669" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M320 669L320 669" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M320 669L316 670" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M316 670L316 670" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M316 670L311 670" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M311 670L311 670" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M311 670L306 669" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M306 669L306 669" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M306 669L302 667" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M302 667L302 667" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M302 667L298 664" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M298 664L298 664" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M298 666L301 663" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M301 663L301 663" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M301 663L305 661" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M305 661L305 661" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M305 661L308 660" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M308 660L308 660" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M308 660L312 659" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M312 659L312 659" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M312 659L316 660" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M316 660L316 660" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M316 660L320 661" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M320 661L320 661" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M320 661L324 662" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M324 662L324 662" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M324 662L327 665" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M327 665L327 665" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M327 665L330 667" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M330 667L330 667" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M330 667L332 671" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M332 671L332 671" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M332 671L334 674" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M334 674L334 674" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M334 674L334 678" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M334 678L334 678" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M334 678L334 682" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M334 682L334 682" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M334 682L334 686" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M334 686L334 686" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M334 686L332 690" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M332 690L332 690" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M332 690L330 693" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M330 693L330 693" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M330 693L328 696" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M328 696L328 696" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M328 696L324 699" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M324 699L324 699" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M324 699L321 700" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M321 700L321 700" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M321 700L317 702" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M317 702L317 702" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M317 702L313 702" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M313 702L313 702" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M313 595L317 596" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M317 596L317 596" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M317 596L321 597" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M321 597L321 597" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M321 597L324 599" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M324 599L324 599" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M324 599L328 601" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M328 601L328 601" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M328 601L330 604" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M330 604L330 604" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M330 604L332 608" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M332 608L332 608" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M332 608L334 611" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M334 611L334 611" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M334 611L334 615" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M334 615L334 615" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M334 615L334 619" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M334 619L334 619" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M334 619L334 623" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M334 623L334 623" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M334 623L332 627" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M332 627L332 627" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M332 627L330 630" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M330 630L330 630" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M330 630L327 633" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M327 633L327 633" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M327 633L324 635" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M324 635L324 635" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M324 635L320 637" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M320 637L320 637" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M320 637L316 638" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M316 638L316 638" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M316 638L312 638" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M312 638L312 638" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M312 638L308 638" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M308 638L308 638" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M308 638L305 636" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M305 636L305 636" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M305 636L301 634" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M301 634L301 634" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M301 634L298 632" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M298 632L298 632" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M343 626.5C 343 627.4279 342.631 628.3187 341.97488 628.97485C 341.31876 629.631 340.4279 630 339.5 630C 338.5721 630 337.68124 629.631 337.02512 628.97485C 336.369 628.3187 336 627.4279 336 626.5C 336 625.5721 336.369 624.6813 337.02512 624.02515C 337.68124 623.369 338.5721 623 339.5 623C 340.4279 623 341.31876 623.369 341.97488 624.02515C 342.631 624.6813 343 625.5721 343 626.5" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="340" y="642.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+L
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="358" y="642.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+1
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M343 680.5C 343 681.4279 342.631 682.3187 341.97488 682.97485C 341.31876 683.631 340.4279 684 339.5 684C 338.5721 684 337.68124 683.631 337.02512 682.97485C 336.369 682.3187 336 681.4279 336 680.5C 336 679.5721 336.369 678.6813 337.02512 678.02515C 337.68124 677.369 338.5721 677 339.5 677C 340.4279 677 341.31876 677.369 341.97488 678.02515C 342.631 678.6813 343 679.5721 343 680.5" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="340" y="696.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+1
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="360" y="696.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+0
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="380" y="696.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+0
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="400" y="696.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+µ
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1290 808L1338 808" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1338 808L1338 808" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1338 808L1314 832" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1314 832L1314 832" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1314 832L1290 808" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1290 808L1290 808" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M614 839.5C 614 840.4279 613.631 841.3187 612.97485 841.97485C 612.3187 842.631 611.4279 843 610.5 843C 609.5721 843 608.6813 842.631 608.02515 841.97485C 607.369 841.3187 607 840.4279 607 839.5C 607 838.5721 607.369 837.6813 608.02515 837.02515C 608.6813 836.369 609.5721 836 610.5 836C 611.4279 836 612.3187 836.369 612.97485 837.02515C 613.631 837.6813 614 838.5721 614 839.5" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="611" y="855.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+.
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="621" y="855.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+t
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="634" y="855.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+r
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="647" y="855.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+a
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="666" y="855.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+n
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="686" y="855.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+ 
+				</text>
+				<text transform="matrix(1 0 0 1 0 0)" x="695" y="855.5674" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+8
+				</text>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1889 42L1676 42" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 42L1676 42" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1569 191L1037 191" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1037 191L1037 191" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1527 234L1080 234" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1080 234L1080 234" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1165 361L909 361" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M909 361L909 361" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1569 361L1569 191" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1569 191L1569 191" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1569 361L1463 361" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1463 361L1463 361" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 361L1676 148" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 148L1676 148" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 361L1569 361" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1569 361L1569 361" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1080 446L1080 234" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1080 234L1080 234" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1165 446L1080 446" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1080 446L1080 446" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1612 446L1463 446" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1463 446L1463 446" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1612 468L1612 446" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1612 446L1612 446" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 468L1612 468" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1612 468L1612 468" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M164 532L36 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M36 532L36 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M313 532L271 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M271 532L271 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M356 532L313 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M313 532L313 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M633 532L462 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M462 532L462 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1165 532L633 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M633 532L633 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1527 532L1527 234" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1527 234L1527 234" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1527 532L1463 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1463 532L1463 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1612 532L1527 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1527 532L1527 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M633 574L633 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M633 532L633 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1612 574L1612 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1612 532L1612 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 574L1612 574" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1612 574L1612 574" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M313 595L313 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M313 532L313 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1037 617L1037 191" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1037 191L1037 191" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1165 617L1037 617" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1037 617L1037 617" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1527 617L1463 617" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1463 617L1463 617" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1527 659L1527 617" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1527 617L1527 617" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 659L1676 574" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 574L1676 574" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M36 787L36 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M36 532L36 532" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M313 787L313 702" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M313 702L313 702" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M313 787L36 787" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M36 787L36 787" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M633 787L633 766" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M633 766L633 766" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M633 787L313 787" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M313 787L313 787" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M909 787L909 361" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M909 361L909 361" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M909 787L633 787" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M633 787L633 787" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1314 787L909 787" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M909 787L909 787" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1527 787L1527 745" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1527 745L1527 745" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1527 787L1314 787" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1314 787L1314 787" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 787L1676 745" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 745L1676 745" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 787L1527 787" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1527 787L1527 787" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1889 787L1889 42" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1889 42L1889 42" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1889 787L1676 787" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1676 787L1676 787" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1314 808L1314 787" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1314 787L1314 787" stroke="#000000" stroke-width="1" stroke-linecap="round" fill="none"/>
+                <path transform="matrix(1 0 0 1 0 0)" d="M308 527L319 527L319 538L308 538z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="0" y="33.567383" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+
+				</text>
+                <path transform="matrix(1 0 0 1 308 560.5674)" d="M0 0L0 0L0 0L0 0z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<g transform="matrix(1 0 0 1 308 560.5674)">
+				</g>
+                <path transform="matrix(1 0 0 1 0 0)" d="M308 782L319 782L319 793L308 793z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="0" y="33.567383" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+
+				</text>
+                <path transform="matrix(1 0 0 1 308 815.5674)" d="M0 0L0 0L0 0L0 0z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<g transform="matrix(1 0 0 1 308 815.5674)">
+				</g>
+                <path transform="matrix(1 0 0 1 0 0)" d="M628 527L639 527L639 538L628 538z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="0" y="33.567383" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+
+				</text>
+                <path transform="matrix(1 0 0 1 628 560.5674)" d="M0 0L0 0L0 0L0 0z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<g transform="matrix(1 0 0 1 628 560.5674)">
+				</g>
+                <path transform="matrix(1 0 0 1 0 0)" d="M628 782L639 782L639 793L628 793z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="0" y="33.567383" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+
+				</text>
+                <path transform="matrix(1 0 0 1 628 815.5674)" d="M0 0L0 0L0 0L0 0z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<g transform="matrix(1 0 0 1 628 815.5674)">
+				</g>
+                <path transform="matrix(1 0 0 1 0 0)" d="M904 782L915 782L915 793L904 793z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="0" y="33.567383" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+
+				</text>
+                <path transform="matrix(1 0 0 1 904 815.5674)" d="M0 0L0 0L0 0L0 0z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<g transform="matrix(1 0 0 1 904 815.5674)">
+				</g>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1309 782L1320 782L1320 793L1309 793z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="0" y="33.567383" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+
+				</text>
+                <path transform="matrix(1 0 0 1 1309 815.5674)" d="M0 0L0 0L0 0L0 0z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<g transform="matrix(1 0 0 1 1309 815.5674)">
+				</g>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1522 527L1533 527L1533 538L1522 538z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="0" y="33.567383" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+
+				</text>
+                <path transform="matrix(1 0 0 1 1522 560.5674)" d="M0 0L0 0L0 0L0 0z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<g transform="matrix(1 0 0 1 1522 560.5674)">
+				</g>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1522 782L1533 782L1533 793L1522 793z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="0" y="33.567383" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+
+				</text>
+                <path transform="matrix(1 0 0 1 1522 815.5674)" d="M0 0L0 0L0 0L0 0z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<g transform="matrix(1 0 0 1 1522 815.5674)">
+				</g>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1564 356L1575 356L1575 367L1564 367z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="0" y="33.567383" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+
+				</text>
+                <path transform="matrix(1 0 0 1 1564 389.56738)" d="M0 0L0 0L0 0L0 0z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<g transform="matrix(1 0 0 1 1564 389.56738)">
+				</g>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1671 356L1682 356L1682 367L1671 367z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="0" y="33.567383" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+
+				</text>
+                <path transform="matrix(1 0 0 1 1671 389.56738)" d="M0 0L0 0L0 0L0 0z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<g transform="matrix(1 0 0 1 1671 389.56738)">
+				</g>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1671 463L1682 463L1682 474L1671 474z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="0" y="33.567383" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+
+				</text>
+                <path transform="matrix(1 0 0 1 1671 496.56738)" d="M0 0L0 0L0 0L0 0z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<g transform="matrix(1 0 0 1 1671 496.56738)">
+				</g>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1671 569L1682 569L1682 580L1671 580z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="0" y="33.567383" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+
+				</text>
+                <path transform="matrix(1 0 0 1 1671 602.5674)" d="M0 0L0 0L0 0L0 0z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<g transform="matrix(1 0 0 1 1671 602.5674)">
+				</g>
+                <path transform="matrix(1 0 0 1 0 0)" d="M1671 782L1682 782L1682 793L1671 793z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<text transform="matrix(1 0 0 1 0 0)" x="0" y="33.567383" style="fill: rgb(0, 0, 0); font-family: Andale Mono; font-weight: bold;" font-size="37">
+
+				</text>
+                <path transform="matrix(1 0 0 1 1671 815.5674)" d="M0 0L0 0L0 0L0 0z" stroke="none" fill="#000000" fill-rule="evenodd" fill-opacity="0"/>
+				<g transform="matrix(1 0 0 1 1671 815.5674)">
+				</g>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
