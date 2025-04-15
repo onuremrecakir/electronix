@@ -66,12 +66,13 @@ document.querySelectorAll('.main-nav-tabs .tab').forEach(tab => {
     // Remove active class from all tabs
     document.querySelectorAll('.main-nav-tabs .tab').forEach(t => t.classList.remove('active'));
     // Hide all tab contents
-    document.querySelectorAll('.tab-content').forEach(content => content.style.display = 'none');
+    document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
 
     // Activate clicked tab
     tab.classList.add('active');
     const tabId = tab.getAttribute('data-tab');
-    document.getElementById(tabId).style.display = 'block';
+    // Show the corresponding tab content
+    document.getElementById(tabId).classList.add('active');
   });
 });
 
