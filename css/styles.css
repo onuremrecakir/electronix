@@ -91,7 +91,10 @@ button#darkModeToggle {
   justify-content: center;
   border-bottom: 3px solid #444;
   position: relative;
-  margin-top: 30px;
+  /*margin-top: 30px; */
+  margin: -20px auto 0 auto; /* Pull it up under header and center it */
+  max-width: 1200px;         /* 👈 Match tab content width */
+  border-radius: 0 0 10px 10px; /* Optional: match curve of bottom box */
 }
 
 .main-nav-tabs ul {
