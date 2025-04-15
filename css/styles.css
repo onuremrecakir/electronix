@@ -125,8 +125,14 @@ button#darkModeToggle {
 }
 
 /* Hide all tab content by default */
+/* Hide all tab content by default */
 .tab-content {
   display: none;
+  background-color: #fff; /* Add background for visibility */
+  padding: 20px;  /* Space the content a bit */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow for depth */
+  margin-top: 20px; /* Add space between tabs and content */
 }
 
 /* Show the active tab content */
@@ -134,7 +140,6 @@ button#darkModeToggle {
   display: block;
 }
 
-/* Tab styles */
 .main-nav-tabs {
   text-align: center;
   margin-top: 1rem;
@@ -163,6 +168,7 @@ button#darkModeToggle {
   color: #fff;
   border-bottom: none;
 }
+
 
 body.dark .main-nav-tabs {
   background: #111;
