@@ -30,6 +30,9 @@ button#darkModeToggle {
   cursor: pointer;
   color: inherit;
 }
+.card-content {
+  padding: 1rem 1.2rem;
+}
 
 .card-container {
   display: grid;
