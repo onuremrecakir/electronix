@@ -157,7 +157,7 @@ button#darkModeToggle {
 }
 
 .main-nav-tabs .tab:hover {
-  background: #333;
+  background: #9f9f9f;
 }
 
 /* Hide all tab content by default */
