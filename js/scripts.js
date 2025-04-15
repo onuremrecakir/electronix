@@ -57,10 +57,11 @@ function closeModal(event) {
 
 // Dark mode toggle
 const darkModeBtn = document.getElementById("darkModeToggle");
- darkModeBtn.addEventListener("click", () => {
-   document.body.classList.toggle("dark");
+darkModeBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark");
+});
 
-   
+// Tab switching functionality
 document.querySelectorAll('.main-nav-tabs .tab').forEach(tab => {
   tab.addEventListener('click', () => {
     // Remove active class from all tabs
@@ -74,8 +75,4 @@ document.querySelectorAll('.main-nav-tabs .tab').forEach(tab => {
     // Show the corresponding tab content
     document.getElementById(tabId).classList.add('active');
   });
-});
-
-
-   
 });
