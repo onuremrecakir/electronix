@@ -111,6 +111,18 @@ button#darkModeToggle {
    margin-top: 20px; /* Add space between tabs and content */
  }
 
+.main-nav-tabs::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background: #f0f0f0;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  z-index: -1;
+}
 
 
 
