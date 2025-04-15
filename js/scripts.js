@@ -14,6 +14,13 @@ const cards = [
     description: "Classic timer-based LED flasher.",
     content: "You can explain frequency, resistor values, and give your explanation here."
   },
+   {
+    id: 3,
+    title: "TEST",
+    image: "img/circuit2.svg",
+    description: "Classic timer-based LED flasher.",
+    content: "You can explain frequency, resistor values, and give your explanation here."
+  },
 ];
 
 // Create cards and append to container
