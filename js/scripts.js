@@ -3,14 +3,14 @@ const cards = [
   {
     id: 1,
     title: "Pushbutton ON/OFF Controller",
-    image: "img/pushbutton.png",
+    image: "img/circuit1.svg",
     description: "A simple SR latch-based controller with pushbuttons.",
     content: "Here's where you explain the circuit, add your diagram, maybe even a SPICE netlist."
   },
   {
     id: 2,
     title: "555 Timer LED Blinker",
-    image: "img/blinker.png",
+    image: "img/circuit2.svg",
     description: "Classic timer-based LED flasher.",
     content: "You can explain frequency, resistor values, and give your explanation here."
   },
