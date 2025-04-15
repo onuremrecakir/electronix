@@ -76,5 +76,6 @@ document.querySelectorAll('.main-nav-tabs .tab').forEach(tab => {
   });
 });
 
+
    
 });
