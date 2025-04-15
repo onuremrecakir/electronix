@@ -14,6 +14,11 @@ body.dark {
   background-color: #111;
   color: #f0f0f0;
 }
+/* Invert images in dark mode */
+body.dark img {
+  filter: invert(1) hue-rotate(180deg);
+}
+
 
 /* Header Styling */
 header {
