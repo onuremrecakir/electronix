@@ -59,4 +59,21 @@ function closeModal(event) {
 const darkModeBtn = document.getElementById("darkModeToggle");
  darkModeBtn.addEventListener("click", () => {
    document.body.classList.toggle("dark");
+
+   
+document.querySelectorAll('.main-nav-tabs .tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    // Remove active class from all tabs
+    document.querySelectorAll('.main-nav-tabs .tab').forEach(t => t.classList.remove('active'));
+    // Hide all tab contents
+    document.querySelectorAll('.tab-content').forEach(content => content.style.display = 'none');
+
+    // Activate clicked tab
+    tab.classList.add('active');
+    const tabId = tab.getAttribute('data-tab');
+    document.getElementById(tabId).style.display = 'block';
+  });
+});
+
+   
 });
