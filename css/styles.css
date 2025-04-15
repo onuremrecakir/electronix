@@ -85,6 +85,8 @@ button#darkModeToggle {
   transform: scale(1.2);
 }
 
+
+
 .tabs-wrapper {
   background: #f0f0f0;
   border-radius: 0 0 30px 30px;
@@ -97,17 +99,27 @@ button#darkModeToggle {
 
 
 .main-nav-tabs {
-  background: transparent;
-  border: none;
-  margin: 0;
-  border-radius: 0;
+  background: #f0f0f0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 14px auto 0 auto;
+  max-width: 1200px;
+  border-bottom: none; /* remove the hard border */
+  border-radius: 0 0 30px 30px;
+  overflow: hidden;
+  box-shadow: inset 0 -6px 6px -6px rgba(0, 0, 0, 0.3); /* 👈 this fakes a bottom shadow */
 }
 
 .tab-content {
-  background: transparent;
-  border: none;
-  margin: 0;
-}
+   display: none;
+   background-color: #fff; /* Add background for visibility */
+   padding: 20px;  /* Space the content a bit */
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow for depth */
+   margin-top: 20px; /* Add space between tabs and content */
+ }
 
 
 
