@@ -191,15 +191,7 @@ body.dark .main-nav a:hover {
   color: #00bfff;
 }
 
-.tab-content {
-  background: white;
-  padding: 2rem;
-  border: 3px solid #444;
-  border-top: none;
-  max-width: 1200px;
-  margin: 0 auto;
-  border-radius: 0 0 10px 10px;
-}
+
 
 body.dark .tab-content {
   background: #181818;
