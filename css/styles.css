@@ -85,7 +85,7 @@ button#darkModeToggle {
   transform: scale(1.2);
 }
 .main-nav-tabs {
-  background: #FFFFFF;
+  background: #f0f0f0;
   padding: 0;
   display: flex;
   justify-content: center;
