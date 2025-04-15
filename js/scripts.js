@@ -2,10 +2,10 @@
 const cards = [
   {
     id: 1,
-    title: "Pushbutton ON/OFF Controller",
+    title: "555 Timer IC Circuit",
     image: "img/circuit1.svg",
-    description: "A simple SR latch-based controller with pushbuttons.",
-    content: "Here's where you explain the circuit, add your diagram, maybe even a SPICE netlist."
+    description: "A simple LM555 timer circuit in astable mode for various applications.",
+    content: "On and off time of the LED is determined by the capacity of capacitors."
   },
   {
     id: 2,
