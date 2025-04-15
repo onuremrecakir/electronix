@@ -90,12 +90,14 @@ button#darkModeToggle {
 
 .main-nav-tabs {
   background: #ffffff;
-  padding: 0;
+  padding-top: 10px; /* ✅ adds space ONLY on top */
+  padding-bottom: 0;
   display: flex;
   justify-content: center;
   position: relative;
   margin: 14px auto 0 auto;
   max-width: 1200px;
+  border-top: 3px solid #444;
   border-bottom: 3px solid #444;
   border-radius: 30px 30px 0 0;
   overflow: hidden;
