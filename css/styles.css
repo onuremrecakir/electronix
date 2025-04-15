@@ -157,7 +157,6 @@ button#darkModeToggle {
 }
 
 .main-nav-tabs .tab:hover {
-  transform: scale(1.03)
   background: #333;
 }
 
