@@ -56,7 +56,20 @@ function closeModal(event) {
 }
 
 // Dark mode toggle
-const darkModeBtn = document.getElementById("darkModeToggle");
-darkModeBtn.addEventListener("click", () => {
-  document.body.classList.toggle("dark");
+<script>
+  const toggle = document.getElementById('toggleSwitch');
+
+  // On toggle
+  toggle.addEventListener('change', () => {
+    document.body.classList.toggle('dark');
+    localStorage.setItem('darkMode', document.body.classList.contains('dark') ? 'enabled' : 'disabled');
+  });
+
+  // On load
+  if (localStorage.getItem('darkMode') === 'enabled') {
+    document.body.classList.add('dark');
+    toggle.checked = true;
+  }
+</script>
+
 });
