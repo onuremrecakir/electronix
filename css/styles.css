@@ -90,12 +90,13 @@ button#darkModeToggle {
   display: flex;
   justify-content: center;
   position: relative;
-  margin: 14px auto 0 auto; /* Adds space above */
+  margin: 14px auto 20px auto; /* 👈 Added space below */
   max-width: 1200px;
   border-bottom: 3px solid #444;
-  border-radius: 0 0 30px 30px; /* Curves the bottom of the tabs directly */
-  overflow: hidden; /* Ensures content doesn't spill out of the curved edges */
+  border-radius: 0 0 30px 30px; /* 👈 Curves go down */
+  overflow: hidden;
 }
+
 
 .main-nav-tabs ul {
   list-style: none;
