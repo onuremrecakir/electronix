@@ -89,14 +89,12 @@ button#darkModeToggle {
   padding: 0;
   display: flex;
   justify-content: center;
-  border-bottom: 3px solid #444;
   position: relative;
   margin: 30px auto 0 auto; /* Adds space above */
   max-width: 1200px;
-  border-radius: 0 0 30px 30px;  /* Curves the bottom down */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+  border-radius: 0 0 30px 30px; /* Curves the bottom of the tabs directly */
+  overflow: hidden; /* Ensures content doesn't spill out of the curved edges */
 }
-
 
 .main-nav-tabs ul {
   list-style: none;
