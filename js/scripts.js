@@ -122,3 +122,28 @@ document.querySelectorAll('.main-nav-tabs .tab').forEach(tab => {
     document.getElementById(tabId).classList.add('active');
   });
 });
+
+
+
+// Zoomable image modal
+document.body.addEventListener("click", function (e) {
+  if (e.target.tagName === "IMG" && e.target.closest(".pcb-images")) {
+    const src = e.target.getAttribute("src");
+    const alt = e.target.getAttribute("alt") || "";
+
+    const modal = document.createElement("div");
+    modal.className = "image-zoom-modal";
+    modal.innerHTML = `
+      <div class="image-zoom-content">
+        <span class="zoom-close">&times;</span>
+        <img src="${src}" alt="${alt}" />
+      </div>
+    `;
+    document.body.appendChild(modal);
+
+    modal.querySelector(".zoom-close").addEventListener("click", () => modal.remove());
+    modal.addEventListener("click", (event) => {
+      if (event.target === modal) modal.remove();
+    });
+  }
+});
