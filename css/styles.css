@@ -205,6 +205,45 @@ body.dark .tab-content {
   border-color: #333;
 }
 
+.pcb-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pcb-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.pcb-img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.pcb-description {
+  margin-bottom: 20px;
+}
+
+.pcb-downloads a {
+  display: inline-block;
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: #0066cc;
+  font-weight: bold;
+}
+
+
+
+
 .tab-content {
   background: white;
   padding: 2rem;
