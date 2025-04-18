@@ -40,6 +40,45 @@ cards.forEach(card => {
   cardContainer.appendChild(div);
 });
 
+
+
+
+// PCB entries
+const pcbProjects = [
+  {
+    id: 1,
+    title: "PCB Blinker Circuit",
+    schematic: "img/pcb_schematic1.png",
+    layout: "img/pcb_layout1.png",
+    description: "This is a simple LED blinker circuit built using a 555 timer IC on a custom PCB.",
+    downloadLink: "downloads/blinker_project.zip"
+  },
+  // Add more PCB objects like this in the future
+];
+
+const pcbContainer = document.getElementById("pcbContainer");
+
+pcbProjects.forEach(project => {
+  const section = document.createElement("section");
+  section.classList.add("pcb-project");
+
+  section.innerHTML = `
+    <h3>${project.title}</h3>
+    <div class="pcb-images">
+      <img src="${project.schematic}" alt="Schematic for ${project.title}" />
+      <img src="${project.layout}" alt="PCB Layout for ${project.title}" />
+    </div>
+    <p>${project.description}</p>
+    <a href="${project.downloadLink}" download class="download-btn">Download Project Files</a>
+  `;
+
+  pcbContainer.appendChild(section);
+});
+
+
+
+
+
 // Modal logic
 const modalRoot = document.getElementById("modalRoot");
 
