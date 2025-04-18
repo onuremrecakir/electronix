@@ -47,11 +47,11 @@ cards.forEach(card => {
 const pcbProjects = [
   {
     id: 1,
-    title: "PCB Blinker Circuit",
-    schematic: "img/pcb_schematic1.png",
-    layout: "img/pcb_layout1.png",
-    description: "This is a simple LED blinker circuit built using a 555 timer IC on a custom PCB.",
-    downloadLink: "downloads/blinker_project.zip"
+    title: "RBBB Pro Board Remake",
+    schematic: "img/first.svg",
+    layout: "img/first_layout.jpg",
+    description: "This is a recreation of RBBB Pro board by me for learning purpose. Relatively simple circuit for the beginner pcb design learners.",
+    downloadLink: "downloads/RBBB_project.zip"
   },
   // Add more PCB objects like this in the future
 ];
