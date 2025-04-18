@@ -50,7 +50,10 @@ const pcbProjects = [
     title: "RBBB Pro Board Remake",
     schematic: "img/first.svg",
     layout: "img/first_layout.jpg",
-    description: "This is a recreation of RBBB Pro board by me for learning purpose. Relatively simple circuit for the beginner pcb design learners. I used OrCAD environment for the project. Firstly, I used Capture app of OrCAD to draw schematic ",
+    description: `This is a recreation of RBBB Pro board by me for learning purpose.
+                Relatively simple circuit for the beginner pcb design learners. I used OrCAD environment for the project.
+                Firstly, I used Capture app of OrCAD to draw schematic, then with interconnection between apps I sent the schematic to pcb editor and design the layout there.
+                I am planning to recreate more pcb designes as well as my own circuits.`,
     downloadLink: "downloads/RBBB_project.zip"
   },
   // Add more PCB objects like this in the future
