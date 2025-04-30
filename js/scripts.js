@@ -14,7 +14,7 @@ const cards = [
     description: "Classic timer-based LED flasher.",
     content: "You can explain frequency, resistor values, and give your explanation here."
   },
-  {
+   {
     id: 3,
     title: "TEST",
     image: "img/circuit2.svg",
@@ -32,13 +32,16 @@ cards.forEach(card => {
   div.innerHTML = `
     <img src="${card.image}" alt="${card.title}" loading="lazy" />
     <div class="card-content">
-      <h2>${card.title}</h2>
+      <h3>${card.title}</h3>
       <p>${card.description}</p>
     </div>
   `;
   div.addEventListener("click", () => openModal(card));
   cardContainer.appendChild(div);
 });
+
+
+
 
 // PCB entries
 const pcbProjects = [
@@ -47,9 +50,9 @@ const pcbProjects = [
     title: "RBBB Pro Board Remake",
     schematic: "img/first.svg",
     layout: "img/first_layout.jpg",
-    description: `This is a recreation of RBBB Pro board by me for learning purpose.
+    description: `&emsp;This is a recreation of RBBB Pro board by me for learning purpose.
                 Relatively simple circuit for the beginner pcb design learners. I used OrCAD environment for the project.<br><br>
-                Firstly, I used Capture app of OrCAD to draw schematic, then with interconnection between apps I sent the schematic to pcb editor and design the layout there.
+                &emsp;Firstly, I used Capture app of OrCAD to draw schematic, then with interconnection between apps I sent the schematic to pcb editor and design the layout there.
                 I am planning to recreate more pcb designes as well as my own circuits.`,
     downloadLink: "downloads/RBBB_project.zip"
   },
@@ -69,54 +72,35 @@ pcbProjects.forEach(project => {
       <img src="${project.layout}" alt="PCB Layout for ${project.title}" />
     </div>
     <p>${project.description}</p>
-    <a href="${project.downloadLink}" download class="download-btn">
-      <span>↓</span> Download Files
-    </a>
+    <a href="${project.downloadLink}" download class="download-btn">Download Project Files</a>
   `;
 
   pcbContainer.appendChild(section);
 });
 
+
+
+
+
 // Modal logic
 const modalRoot = document.getElementById("modalRoot");
-let currentModal = null;
 
 function openModal(card) {
-  if (currentModal) {
-    closeModal();
-  }
-
-  const modal = document.createElement("div");
-  modal.className = "modal show";
-  modal.innerHTML = `
-    <div class="modal-content">
-      <span class="modal-close">&times;</span>
-      <h2>${card.title}</h2>
-      <img src="${card.image}" alt="${card.title}" />
-      <p>${card.content}</p>
+  modalRoot.innerHTML = `
+    <div class="modal" onclick="closeModal(event)">
+      <div class="modal-content">
+        <span class="modal-close" onclick="closeModal(event)">&times;</span>
+        <h2>${card.title}</h2>
+        <img src="${card.image}" alt="${card.title}" />
+        <p>${card.content}</p>
+      </div>
     </div>
   `;
-  modalRoot.appendChild(modal);
-  currentModal = modal;
-
-  const closeBtn = modal.querySelector(".modal-close");
-  closeBtn.addEventListener("click", closeModal);
-  modal.addEventListener("click", (event) => {
-    if (event.target === modal) {
-      closeModal();
-    }
-  });
 }
 
-function closeModal() {
-  if (currentModal) {
-    currentModal.classList.remove("show");
-    currentModal.addEventListener("transitionend", () => {
-      if (currentModal && currentModal.parentNode) {
-        currentModal.parentNode.removeChild(currentModal);
-      }
-      currentModal = null;
-    }, { once: true });
+function closeModal(event) {
+  if (event.target.classList.contains("modal") || event.target.classList.contains("modal-close")) {
+    modalRoot.innerHTML = "";
   }
 }
 
@@ -127,24 +111,22 @@ darkModeBtn.addEventListener("click", () => {
 });
 
 // Tab switching functionality
-const tabs = document.querySelectorAll('.main-nav-tabs .tab');
-const tabContents = document.querySelectorAll('.tab-content');
-
-tabs.forEach(tab => {
+document.querySelectorAll('.main-nav-tabs .tab').forEach(tab => {
   tab.addEventListener('click', () => {
-    tabs.forEach(t => t.classList.remove('active'));
-    tabContents.forEach(content => content.classList.remove('active'));
+    // Remove active class from all tabs
+    document.querySelectorAll('.main-nav-tabs .tab').forEach(t => t.classList.remove('active'));
+    // Hide all tab contents
+    document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
 
+    // Activate clicked tab
     tab.classList.add('active');
     const tabId = tab.getAttribute('data-tab');
-    const targetContent = document.getElementById(tabId);
-    if (targetContent) {
-      targetContent.classList.add('active');
-    }
+    // Show the corresponding tab content
+    document.getElementById(tabId).classList.add('active');
   });
 });
 
-document.querySelector(`[data-tab="about"]`).click();
+
 
 // Zoomable image modal
 document.body.addEventListener("click", function (e) {
@@ -162,8 +144,7 @@ document.body.addEventListener("click", function (e) {
     `;
     document.body.appendChild(modal);
 
-    const modalClose = modal.querySelector(".zoom-close");
-    modalClose.addEventListener("click", () => modal.remove());
+    modal.querySelector(".zoom-close").addEventListener("click", () => modal.remove());
     modal.addEventListener("click", (event) => {
       if (event.target === modal) modal.remove();
     });
