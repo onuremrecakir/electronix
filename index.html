@@ -4,53 +4,61 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Electronix</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+  <link rel="stylesheet" href="css/styles.css?v=1">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap">
   <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <header>
-    <h1>Electronix</h1>
-    <p>My hands-on journey through electronics – curated & shared</p>
-    <div class="social-links">
-      <a href="https://linkedin.com/in/onuremrecakir" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
-      </a>
-    </div>
-    <button id="darkModeToggle">🌙</button>
-  </header>
-  <nav class="main-nav-tabs">
-    <ul>
-      <li class="tab" data-tab="about"><a href="#">About Me</a></li>
-      <li class="tab active" data-tab="electronics"><a href="#">Electronics</a></li>
-      <li class="tab" data-tab="PCB-Design"><a href="#">PCB-Design</a></li>
-    </ul>
-  </nav>
 
-  <div id="electronics" class="tab-content active">
-    <div id="cardContainer" class="card-container"></div>
+
+
+<header>
+  <h1>Electronix</h1>
+  <p>My hands-on journey through electronics – curated & shared</p>
+  <div class="social-links">
+    <a href="https://linkedin.com/in/onuremrecakir" target="_blank">
+      <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+    </a>
   </div>
+  <!-- Dark Mode Toggle Button -->
+ <button id="darkModeToggle" onclick="toggleDarkMode()">🌙</button>
+   </button>
 
-  <div id="about" class="tab-content">
-    <h2>About Me</h2>
-    <p>
-      Hello, I'm Onur Emre. I build electronics and document my circuits here.
-    </p>
-    <p>
-      Programs I use:
-    </p>
-    <ul>
-      <li>LTSpice</li>
-      <li>Matlab Simulink</li>
-    </ul>
-  </div>
+</header>
+<nav class="main-nav-tabs">
+  <ul>
+    <li class="tab" data-tab="about"><a href="#">About Me</a></li>   
+    <li class="tab active" data-tab="electronics"><a href="#">Electronics</a></li>
+    <li class="tab active" data-tab="PCB-Design"><a href="#">PCB-Design</a></li>
+    
+  </ul>
+</nav>
 
+<div id="electronics" class="tab-content active">
+  <div id="cardContainer" class="card-container"></div>
+</div>
+
+<div id="about" class="tab-content">
+  <h2>About Me</h2>
+  <pre>
+    Hello, I'm Onur Emre. I build electronics and document my circuits here. 
+
+    Programs I use: 
+    -LTSpice
+    -Matlab Simulink
+  </pre>
+</div>
+
+
+  
   <div id="PCB-Design" class="tab-content">
-    <div id="pcbContainer" class="pcb-section-container"></div>
-  </div>
+  <div id="pcbContainer" class="pcb-section-container"></div>
+</div>
 
+
+
+
+  <!-- Modal root -->
   <div id="modalRoot"></div>
 
-  <script src="scripts.js"></script>
+  <script src="js/scripts.js" defer></script>
 </body>
 </html>
