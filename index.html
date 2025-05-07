@@ -4,31 +4,41 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Electronix</title>
-  <link rel="stylesheet" href="css/styles.css?v=1">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap">
-  <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=1.0.2">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Roboto+Mono:wght@300;400;500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script>
+    // Force reload CSS on page load
+    document.querySelector('link[href*="styles.css"]').href = 'css/styles.css?v=' + new Date().getTime();
+  </script>
 
 
 
 <header>
-  <h1>Electronix</h1>
-  <p>My hands-on journey through electronics – curated & shared</p>
-  <div class="social-links">
-    <a href="https://linkedin.com/in/onuremrecakir" target="_blank">
-      <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
-    </a>
+  <div class="header-content">
+    <h1>Electronix</h1>
+    <p>My hands-on journey through electronics – curated & shared</p>
+    <div class="social-links">
+      <a href="https://linkedin.com/in/onuremrecakir" target="_blank" title="LinkedIn">
+        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+      </a>
+      <a href="https://github.com/onuremrecakir" target="_blank" title="GitHub">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+      </a>
+    </div>
   </div>
-  <!-- Dark Mode Toggle Button -->
- <button id="darkModeToggle" onclick="toggleDarkMode()">🌙</button>
-   </button>
-
 </header>
 <nav class="main-nav-tabs">
+  <div class="window-controls">
+    <div class="window-control close"></div>
+    <div class="window-control minimize"></div>
+    <div class="window-control maximize"></div>
+  </div>
   <ul>
-    <li class="tab" data-tab="about"><a href="#">About Me</a></li>   
-    <li class="tab active" data-tab="electronics"><a href="#">Electronics</a></li>
-    <li class="tab active" data-tab="PCB-Design"><a href="#">PCB-Design</a></li>
-    
+    <li class="tab" data-tab="about"><a href="#" class="tab-link">About Me</a></li>   
+    <li class="tab active" data-tab="electronics"><a href="#" class="tab-link">Electronics</a></li>
+    <li class="tab" data-tab="PCB-Design"><a href="#" class="tab-link">PCB-Design</a></li>
   </ul>
 </nav>
 
@@ -37,14 +47,26 @@
 </div>
 
 <div id="about" class="tab-content">
-  <h2>About Me</h2>
-  <pre>
-    Hello, I'm Onur Emre. I build electronics and document my circuits here. 
-
-    Programs I use: 
-    -LTSpice
-    -Matlab Simulink
-  </pre>
+  <div class="about-container">
+    <div class="about-header">
+      <h2>About Me</h2>
+      <div class="about-social-links">
+        <a href="https://linkedin.com/in/onuremrecakir" target="_blank" title="LinkedIn">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/onuremrecakir" target="_blank" title="GitHub">
+          <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub">
+        </a>
+      </div>
+    </div>
+    
+    <div class="about-content">
+      <div class="about-text">
+        <p>Hello, I'm Onur Emre. I build electronics and document my circuits here.</p>
+        <p>I'm passionate about creating and sharing my electronics projects, focusing on practical applications and learning through hands-on experience.</p>
+      </div>
+    </div>
+  </div>
 </div>
 
 
@@ -60,5 +82,57 @@
   <div id="modalRoot"></div>
 
   <script src="js/scripts.js" defer></script>
+  <script>
+    // Prevent default scrolling when clicking tabs
+    document.querySelectorAll('.tab a').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const tabId = this.parentElement.getAttribute('data-tab');
+        
+        // Remove active class from all tabs and content
+        document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+        
+        // Add active class to clicked tab and its content
+        this.parentElement.classList.add('active');
+        document.getElementById(tabId).classList.add('active');
+      });
+    });
+
+    // Global zoom function
+    function zoomImage(img) {
+      const src = img.getAttribute('src');
+      const alt = img.getAttribute('alt') || '';
+
+      const modal = document.createElement('div');
+      modal.className = 'image-zoom-modal';
+      modal.innerHTML = `
+        <div class="image-zoom-content">
+          <span class="zoom-close">&times;</span>
+          <img src="${src}" alt="${alt}" />
+        </div>
+      `;
+      document.body.appendChild(modal);
+
+      // Close on close button click
+      modal.querySelector('.zoom-close').addEventListener('click', () => {
+        modal.remove();
+      });
+
+      // Close on background click
+      modal.addEventListener('click', (event) => {
+        if (event.target === modal) {
+          modal.remove();
+        }
+      });
+
+      // Close on escape key
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+          modal.remove();
+        }
+      });
+    }
+  </script>
 </body>
 </html>
