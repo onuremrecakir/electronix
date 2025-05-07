@@ -61,6 +61,7 @@ const pcbProjects = [
 
 const pcbContainer = document.getElementById("pcbContainer");
 
+// Create PCB projects
 pcbProjects.forEach(project => {
   const section = document.createElement("section");
   section.classList.add("pcb-project");
@@ -78,9 +79,44 @@ pcbProjects.forEach(project => {
   pcbContainer.appendChild(section);
 });
 
+// Add click event listener to the container for image zoom
+pcbContainer.addEventListener('click', function(e) {
+  // Check if the clicked element is an image within pcb-images
+  if (e.target.tagName === 'IMG' && e.target.closest('.pcb-images')) {
+    const src = e.target.getAttribute('src');
+    const alt = e.target.getAttribute('alt') || '';
 
+    // Create and show the modal
+    const modal = document.createElement('div');
+    modal.className = 'image-zoom-modal';
+    modal.innerHTML = `
+      <div class="image-zoom-content">
+        <span class="zoom-close">&times;</span>
+        <img src="${src}" alt="${alt}" />
+      </div>
+    `;
+    document.body.appendChild(modal);
 
+    // Close on close button click
+    modal.querySelector('.zoom-close').addEventListener('click', () => {
+      modal.remove();
+    });
 
+    // Close on background click
+    modal.addEventListener('click', (event) => {
+      if (event.target === modal) {
+        modal.remove();
+      }
+    });
+
+    // Close on escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        modal.remove();
+      }
+    });
+  }
+});
 
 // Modal logic
 const modalRoot = document.getElementById("modalRoot");
@@ -126,27 +162,37 @@ document.querySelectorAll('.main-nav-tabs .tab').forEach(tab => {
   });
 });
 
+// Image zoom function
+function zoomImage(img) {
+  const src = img.getAttribute('src');
+  const alt = img.getAttribute('alt') || '';
 
+  const modal = document.createElement('div');
+  modal.className = 'image-zoom-modal';
+  modal.innerHTML = `
+    <div class="image-zoom-content">
+      <span class="zoom-close">&times;</span>
+      <img src="${src}" alt="${alt}" />
+    </div>
+  `;
+  document.body.appendChild(modal);
 
-// Zoomable image modal
-document.body.addEventListener("click", function (e) {
-  if (e.target.tagName === "IMG" && e.target.closest(".pcb-images")) {
-    const src = e.target.getAttribute("src");
-    const alt = e.target.getAttribute("alt") || "";
+  // Close on close button click
+  modal.querySelector('.zoom-close').addEventListener('click', () => {
+    modal.remove();
+  });
 
-    const modal = document.createElement("div");
-    modal.className = "image-zoom-modal";
-    modal.innerHTML = `
-      <div class="image-zoom-content">
-        <span class="zoom-close">&times;</span>
-        <img src="${src}" alt="${alt}" />
-      </div>
-    `;
-    document.body.appendChild(modal);
+  // Close on background click
+  modal.addEventListener('click', (event) => {
+    if (event.target === modal) {
+      modal.remove();
+    }
+  });
 
-    modal.querySelector(".zoom-close").addEventListener("click", () => modal.remove());
-    modal.addEventListener("click", (event) => {
-      if (event.target === modal) modal.remove();
-    });
-  }
-});
+  // Close on escape key
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      modal.remove();
+    }
+  });
+}
