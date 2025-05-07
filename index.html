@@ -4,6 +4,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Electronix</title>
+  <style>
+    body {
+      visibility: hidden;
+    }
+    body.loaded {
+      visibility: visible;
+    }
+  </style>
   <link rel="stylesheet" href="css/styles.css?v=1.0.2">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,6 +19,11 @@
   <script>
     // Force reload CSS on page load
     document.querySelector('link[href*="styles.css"]').href = 'css/styles.css?v=' + new Date().getTime();
+    
+    // Show content when everything is loaded
+    window.addEventListener('load', function() {
+      document.body.classList.add('loaded');
+    });
   </script>
 
 
